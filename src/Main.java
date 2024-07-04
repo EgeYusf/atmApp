@@ -78,7 +78,7 @@ public class Main {
                     System.out.println("Yeni bakiye: " + egeBakiye);
                     break;
                 case "4":
-                    scanner.nextLine(); // Buffer'ı temizle
+                    scanner.nextLine(); 
                     System.out.println("Göndermek istediğiniz IBAN giriniz :");
                     String gonderilecekIban = scanner.nextLine();
                     System.out.println("Tutar giriniz :");
